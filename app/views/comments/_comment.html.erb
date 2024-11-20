@@ -1,0 +1,28 @@
+<style>
+        /* Estilos básicos */
+        h4 {
+          color: blue;
+        }
+        h5 {
+          color: #00BFFF;
+          }
+
+          h3 {
+          color: #00BFFF;
+          }
+
+    </style>
+<div class="card mb-3">
+  <div class="card-body">
+    <h4>CORREO DEL COMENTARISTA:</h4>
+    <p><strong><%= comment.user.email %></strong></p>
+    <h4>COMENTARISTA:</h4>
+    <p><%= comment.commenter %></p>
+    <h4>COMENTARIO:</h4>
+    <p><%= comment.body %></p>
+
+     <% if current_user == comment.user || current_user == @article.user %>
+    <%= button_to "Eliminar", article_comment_path(@article, comment), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-danger' %>
+  <% end %>
+  </div>
+</div>

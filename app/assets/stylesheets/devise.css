@@ -1,0 +1,166 @@
+ 
+  /* app/assets/stylesheets/devise.css */
+.signup-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form .field {
+  margin-bottom: 15px;
+}
+
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el formulario de "Forgot your password" */
+
+.forgot-password-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-password-form .field {
+  margin-bottom: 15px;
+}
+
+.forgot-password-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-password-form .btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-password-form .btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password-form .devise-links {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forgot-password-form .devise-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password-form .devise-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el formulario de "Edit account" */
+
+.edit-account-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-account-form .field {
+  margin-bottom: 15px;
+}
+
+.edit-account-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-account-form .btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-account-form .btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.edit-account-form .btn-cancel {
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-account-form .btn-cancel:hover {
+  background-color: #c82333;
+}
+
+.edit-account-form .btn-back {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.edit-account-form .btn-back:hover {
+  background-color: #218838;
+}
+
+/* Estilo para los títulos <h2> */
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
